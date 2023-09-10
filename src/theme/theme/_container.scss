@@ -1,3 +1,13 @@
 .section {
   padding: 8rem 0;
 }
+
+@include media-breakpoint-down(md) {
+  .section {
+    padding: 2rem 0;
+
+    &:first-of-type {
+      padding-top: 8rem;
+    }
+  }
+}
