@@ -67,10 +67,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "helpinghand-showcase:build:production"
+              "buildTarget": "helpinghand-showcase:build:production"
             },
             "development": {
-              "browserTarget": "helpinghand-showcase:build:development"
+              "buildTarget": "helpinghand-showcase:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -78,7 +78,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "helpinghand-showcase:build"
+            "buildTarget": "helpinghand-showcase:build"
           }
         },
         "test": {
@@ -99,6 +99,5 @@
         }
       }
     }
-  },
-  "defaultProject": "helpinghand-showcase"
+  }
 }
