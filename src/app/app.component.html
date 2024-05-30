@@ -14,19 +14,19 @@
          #collapse="ngbCollapse" [(ngbCollapse)]="isCollapsed">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" href="#overview">Übersicht</a>
+          <a class="nav-link" href="#overview" (click)="isCollapsed = true">Übersicht</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#features">Funktionen</a>
+          <a class="nav-link" href="#features" (click)="isCollapsed = true">Funktionen</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#support">Unterstützen</a>
+          <a class="nav-link" href="#support" (click)="isCollapsed = true">Unterstützen</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#contact">Kontakt</a>
+          <a class="nav-link" href="#contact" (click)="isCollapsed = true">Kontakt</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-primary" href="#download">Herunterladen</a>
+          <a class="nav-link text-primary" href="#download" (click)="isCollapsed = true">Herunterladen</a>
         </li>
       </ul>
     </div>
